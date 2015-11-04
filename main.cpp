@@ -3,6 +3,7 @@ using namespace std;
 
 int sum(int a, int b=20)
 {
+    // local variable declaration:
     int result;
 
     result = a + b;
