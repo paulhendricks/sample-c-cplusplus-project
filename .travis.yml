@@ -3,8 +3,6 @@ language: cpp
 compiler:
   - gcc
 
-install: make get-deps
-
 before_script:
   - mkdir build
   - cd build
