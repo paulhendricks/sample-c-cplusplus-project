@@ -3,22 +3,12 @@ using namespace std;
 
 int sum(int a, int b=20)
 {
-    // local variable declaration:
-    int result;
-
-    result = a + b;
-
-    return (result);
+    return a + b;
 }
 
 int diff(int a, int b=20)
 {
-    // local variable declaration:
-    int result;
-
-    result = a - b;
-
-    return (result);
+    return a - b;
 }
 
 int main ()

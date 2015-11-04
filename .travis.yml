@@ -1,6 +1,11 @@
 language: cpp
 
-before_script: ls
+compiler:
+  - gcc
 
-script:
-  - make -C Build
+before_script:
+  - mkdir build
+  - cd build
+  - cmake ..
+
+script: make
